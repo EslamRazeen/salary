@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/master.css">
+</head>
+<body>
+    <header>
+        <h2>Your salary</h2>
+        <!-- <p>Welcome to selleka company </p> -->
+    </header>
+
+    <div class="salary">
+        <form action="">
+            <input type="text" placeholder="Enter Your Name" id="name">
+            <input type="number" placeholder="Enter Your Salary" id="salary">
+            <input type="number" placeholder="Enter Your Ads" id="ads">
+            <input type="month" placeholder="chose the month" id="month">
+            <input type="submit" value="Send" class="submit" id="submit">
+        </form>
+    </div>
+
+    <footer>
+        <table>
+            <tr class="head">
+                <th>Name</th>
+                <th>Total Of Salary</th>
+                <th>Ads</th>
+                <th>Date Of Recive</th>
+            </tr>
+            <tbody id="tbody">
+                
+            </tbody>
+        </table>
+    </footer>
+
+    <div class="del" id="delete">
+        <button onclick="delall()">delete all</button>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
